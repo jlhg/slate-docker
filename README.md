@@ -1,6 +1,6 @@
 # slate-docker
 
-Unofficial docker image for [https://github.com/lord/slate](SLATE).
+Unofficial docker image for [SLATE](https://github.com/lord/slate).
 
 ## Usage
 
