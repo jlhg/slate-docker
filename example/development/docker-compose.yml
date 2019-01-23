@@ -1,0 +1,9 @@
+version: '3'
+services:
+  app:
+    image: 'jlhg/slate-docker'
+    ports:
+      - 4567:4567
+    volumes:
+      - ./source:/app/source
+    command: ["bundle", "exec", "middleman", "server", "--watcher-force-polling"]
